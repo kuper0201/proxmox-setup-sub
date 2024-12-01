@@ -40,6 +40,11 @@ wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/proxmox_
 chmod +x proxmox_gpu_passthrough.sh
 ./proxmox_gpu_passthrough.sh
 
+# Power Off Automatically
+wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/auto_off.sh
+chmod +x auto_off.sh
+
+
 # CloudFlare DDNS Setup
 wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/update-cloudflare-dns.sh
 wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/update-cloudflare-dns.conf
