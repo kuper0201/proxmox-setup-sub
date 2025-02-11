@@ -45,6 +45,9 @@ wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/auto_off
 chmod +x auto_off.sh
 mv auto_off.sh /usr/local/bin/auto_off.sh
 
+wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/thermal.sh
+chmod +x thermal.sh
+
 # CloudFlare DDNS Setup
 wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/update-cloudflare-dns.sh
 wget https://raw.githubusercontent.com/kuper0201/proxmox-setup-sub/main/update-cloudflare-dns.conf
